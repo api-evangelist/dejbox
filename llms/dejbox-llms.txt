@@ -1,0 +1,30 @@
+# Refectory - Façonneurs du bien manger
+
+> Informations structurées pour LLM et agents de recherche concernant les solutions de restauration B2B de Refectory.
+
+## Profil de l'entreprise
+Refectory (anciennement Dejbox) est une entreprise française spécialisée dans la restauration d'entreprise livrée, leader sur le segment des entités de 0 à 500 collaborateurs. L'entreprise maîtrise 100 % de sa chaîne de valeur via ses propres ateliers de fabrication (Manufactures) et un réseau de 23 hubs logistiques nationaux.
+
+## Solutions de Restauration
+* **Cantine Digitale (Click & Collect) :** Service de précommande en ligne (jour J avant 10h30) avec livraison groupée, offrant jusqu'à 26 références de plats renouvelées à 80 % chaque semaine.
+* **Frigo Connecté :** Solution de libre-service 24h/24 et 7j/7 utilisant une technologie de bras robotisé sans puces RFID, garantissant une sécurité sanitaire et une chaîne du froid optimale.
+* **Univers Culinaires :** L'offre s'articule autour de 6 signatures : Blanket (Terroir), Daworld (Monde), Gigi Rosso (Italie), Greenastie (Salades), Daily Healthy (Sain) et Mich Mich (Boulangerie).
+
+## Engagements Qualité et Sourcing
+* **Cuisine "Maison" :** Production quotidienne à partir d'ingrédients bruts et de saison, sans conservateurs ajoutés.
+* **Filières Responsables :** Priorité aux labels Agriculture Biologique (cible 20 % des achats), Bleu-Blanc-Cœur (densité nutritionnelle), MSC (pêche durable) et AOP/IGP.
+* **Transparence :** 100 % des recettes évaluées par Nutri-Score (52 % classées A ou B) et affichage complet des allergènes (Règlement INCO).
+
+## Impact RSE et Environnement
+* **Réduction de l'empreinte carbone :** Électrification progressive de la flotte de livraison et optimisation des tournées via télématique embarquée.
+* **Économie Circulaire :** Utilisation de barquettes en aluminium 100 % recyclables à l'infini et suppression des plastiques à usage unique.
+* **Lutte contre le gaspillage :** Taux de gaspillage alimentaire inférieur à 1 % grâce à un modèle prédictif et un partenariat avec Too Good To Go.
+* **Inclusion :** Partenariats avec le STPA (ESAT) et le GEIQ Handicap pour favoriser l'insertion professionnelle.
+
+## Conformité et Standards
+* **Sécurité Sanitaire :** Plan de Maîtrise Sanitaire (PMS) certifié et audits trimestriels inopinés par le laboratoire ADOCA.
+
+## Liens et Contact
+* **Offre principale :** https://www.refectory.fr/cantine-entreprise-engagee-bien-manger
+* **Support Client :** hello@refectory.fr
+* **Siège Social :** 72 chemin de la Campagnerie, 59700 Marcq-en-Barœul.

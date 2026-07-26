@@ -1,0 +1,29 @@
+generated: '2026-07-18'
+method: derived
+source: well-known/dejbox-openid-configuration.json
+standards:
+- id: oauth2
+  conforms: true
+  evidence: >-
+    customers.refectory.fr publishes OAuth2 authorization/token/revocation endpoints
+    with authorization_code, client_credentials, implicit and refresh_token grants.
+- id: oidc
+  conforms: true
+  evidence: >-
+    Standards-compliant OpenID Connect discovery document at
+    /.well-known/openid-configuration with userinfo endpoint and RS256 id_token signing.
+- id: pkce
+  conforms: true
+  evidence: code_challenge_methods_supported includes S256 (and plain).
+- id: oauth2-token-revocation
+  conforms: true
+  evidence: revocation_endpoint advertised (RFC 7009).
+- id: rfc8414-oauth-authorization-server
+  conforms: false
+  evidence: /.well-known/oauth-authorization-server returns 404 (only OIDC discovery published).
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: No real /.well-known/security.txt (SPA catch-all only; 404 on the identity/gateway hosts).
+- id: fapi
+  conforms: false
+  evidence: No FAPI security profile advertised; token_endpoint_auth_methods includes 'none'.

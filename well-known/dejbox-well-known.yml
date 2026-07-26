@@ -1,0 +1,46 @@
+generated: '2026-07-18'
+method: searched
+source: https://customers.refectory.fr/.well-known/openid-configuration
+note: >-
+  dejbox.fr now 301-redirects to www.refectory.fr (rebrand). The www host serves a Nuxt
+  SPA whose catch-all returns HTTP 200 text/html for every /.well-known/* path, so those
+  are NOT real discovery documents (only /llms.txt is a genuine text/plain resource). The
+  real machine-readable discovery surface is the OAuth2/OIDC identity server on
+  customers.refectory.fr.
+hosts:
+- host: https://customers.refectory.fr
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 200
+    content_type: application/json
+    file: dejbox-openid-configuration.json
+  - path: /.well-known/jwks.json
+    status: 200
+    content_type: application/json
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/security.txt
+    status: 404
+- host: https://www.refectory.fr
+  documents:
+  - path: /llms.txt
+    status: 200
+    content_type: text/plain
+    file: ../llms/dejbox-llms.txt
+  - path: /.well-known/security.txt
+    status: 200
+    content_type: text/html
+    real: false
+    note: SPA catch-all, not a real security.txt
+  - path: /.well-known/openid-configuration
+    status: 200
+    content_type: text/html
+    real: false
+    note: SPA catch-all, not a real discovery document
+- host: https://gateway.refectory.fr
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /
+    status: 404
+    note: live API gateway; no public OpenAPI/Swagger discovered
