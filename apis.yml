@@ -42,6 +42,16 @@ tags:
 - B2B
 - France
 - Meal Delivery
+- Authentication
+- OpenID Connect
+tags_raw:
+- Company
+- Food & Agritech
+- Corporate Catering
+- Food Delivery
+- B2B
+- France
+- Meal Delivery
 - OAuth2
 - OpenID Connect
 apis:
@@ -53,6 +63,10 @@ apis:
   humanURL: https://customers.refectory.fr/.well-known/openid-configuration
   baseURL: https://customers.refectory.fr
   tags:
+  - Authentication
+  - OpenID Connect
+  - Identity
+  tags_raw:
   - OAuth2
   - OpenID Connect
   - Identity
