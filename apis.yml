@@ -54,7 +54,6 @@ tags:
 - France
 - Meal Delivery
 - Authentication
-- OpenID Connect
 tags_raw:
 - Company
 - Food & Agritech
@@ -64,7 +63,6 @@ tags_raw:
 - France
 - Meal Delivery
 - OAuth2
-- OpenID Connect
 apis:
 - name: Refectory Identity (OAuth2 / OpenID Connect)
   description: 'Public OAuth2 / OpenID Connect authorization server (Ory-style) backing the
@@ -113,3 +111,5 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-tags-removed:
+- OpenID Connect
