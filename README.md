@@ -1,4 +1,4 @@
-# Dejbox
+# Dejbox (Refectory)
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Dejbox is a company surfaced as a portfolio company of partech and added to the API Evangelist network as a stub for enrichment. Sector: Food & Agritech. This profile is a lead awaiting the enrichment pipeline.
+Dejbox is a French corporate-catering company founded in Lille in 2015 by Adrien Verhack and Vincent Dupied, acquired by the Carrefour Group in January 2020 and since rebranded as Refectory (refectory.fr). It delivers prepared, seasonal meals to employees of companies located in the peripheral zones of major French cities via a digital canteen (click-and-collect precommande before 10:30) and connected self-service fridges, controlling 100% of its value chain through its own Manufactures and a national network of 23 logistics hubs. Originally surfaced as a Partech portfolio company, it operates in Bordeaux, Grenoble, Lille, Lyon, Nantes, Paris and other French cities. Its consumer platform runs on a public OAuth2/OIDC identity server (customers.refectory.fr) and an API gateway (gateway.refectory.fr).
 
-Backed by: partech — https://www.dejbox.fr/
+**Areas:** Company · Food & Agritech · Corporate Catering · Food Delivery · B2B · France · Meal Delivery · Authentication
+
+## Dejbox (Refectory) on APIs.io
+
+Everything profiled for Dejbox (Refectory) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dejbox/](https://apis.io/providers/dejbox/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Refectory Identity (OAuth2 / OpenID Connect)](https://apis.io/apis/dejbox/refectory-identity-oauth2-openid-connect/) — Public OAuth2 / OpenID Connect authorization server (Ory-style) backing the Refectory (Dejbox) consumer and B2B applications. Advertises a…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dejbox Authentication](https://apis.io/security/dejbox/dejbox-authentication/)
+- [Dejbox Domain Security](https://apis.io/security/dejbox/dejbox-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Dejbox Scopes](https://apis.io/scopes/dejbox/dejbox-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.refectory.fr/)
+- [Blog](https://www.refectory.fr/blog/)
+
+## API Evangelist rating
+
+**Kin Score 13.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 4.5 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 10.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 26.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dejbox/](https://apis.io/providers/dejbox/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Dejbox (Refectory): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dejbox/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
